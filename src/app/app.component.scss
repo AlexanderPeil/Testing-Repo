@@ -14,4 +14,14 @@ form {
 
 ::ng-deep .mat-mdc-text-field-wrapper {
     background-color: red !important;
+    height: 41px !important;
+}
+
+::ng-deep .mat-mdc-form-field-flex {
+    height: 100% !important;
+}
+
+::ng-deep .mat-mdc-form-field-infix {
+    height: 100% !important;
+    padding: 0.5em 0 !important;
 }
