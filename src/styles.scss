@@ -9,6 +9,8 @@
 // Be sure that you only ever include this mixin once!
 @include mat.core();
 
+@import 'ngx-toastr/toastr';
+
 // Define the theme object.
 $angular-testarea-theme: mat.define-theme((
   color: (
